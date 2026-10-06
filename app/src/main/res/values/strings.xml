@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clean Card</string>
+    <string name="tile_label">Mi tarjeta</string>
+    <string name="shortcut_pay_short">Pagar</string>
+    <string name="shortcut_pay_long">Mostrar mi tarjeta para pagar</string>
+
+    <!-- Home -->
+    <string name="home_empty_title">Aún no tienes tarjetas</string>
+    <string name="home_empty_body">Diseña tu tarjeta y muéstrala en pantalla al pagar. El pago lo sigue haciendo tu app de pagos (Google Wallet) con tu tarjeta real.</string>
+    <string name="home_create_first">Crear mi primera tarjeta</string>
+    <string name="home_new_card">Nueva tarjeta</string>
+    <string name="home_how_it_works">Cómo funciona</string>
+    <string name="home_default">Predeterminada</string>
+    <string name="home_make_default">Usar como predeterminada</string>
+    <string name="home_edit">Editar</string>
+    <string name="home_delete">Eliminar</string>
+    <string name="home_delete_title">¿Eliminar este diseño?</string>
+    <string name="home_delete_body">Solo se borra el diseño de esta app. Tu tarjeta real en Google Wallet no se toca.</string>
+    <string name="home_untitled">Sin nombre</string>
+    <string name="home_tap_hint">Toca una tarjeta para mostrarla al pagar</string>
+
+    <!-- How it works -->
+    <string name="info_title">Cómo funciona</string>
+    <string name="info_body">1. Diseña tu tarjeta aquí. Solo es una imagen: no guarda ni usa ningún dato bancario.\n\n2. Al pagar, abre tu diseño (toca la tarjeta, usa el atajo del icono o el botón de Ajustes rápidos «Mi tarjeta»).\n\n3. Acerca el móvil al datáfono con el móvil desbloqueado. El pago lo hace Google Wallet (o tu app de pagos predeterminada) en segundo plano, con tu tarjeta real.\n\nLimitaciones reales:\n• Esta app no cambia el aspecto de Google Wallet. Ninguna app puede hacerlo sin root, y con root Google Wallet deja de funcionar.\n• Al completarse el pago, Google Wallet puede mostrar su propia confirmación con el diseño real de tu tarjeta.\n• El ticket y el datáfono mostrarán la red y la tarjeta reales (Visa, Mastercard…).</string>
+    <string name="info_payment_settings">Ver app de pago predeterminada</string>
+    <string name="close">Cerrar</string>
+
+    <!-- NFC -->
+    <string name="nfc_missing">Este dispositivo no tiene NFC: no podrá pagar con el móvil.</string>
+    <string name="nfc_disabled">El NFC está desactivado. Actívalo para poder pagar.</string>
+    <string name="nfc_enable">Activar NFC</string>
+
+    <!-- Editor -->
+    <string name="editor_new">Nueva tarjeta</string>
+    <string name="editor_edit">Editar tarjeta</string>
+    <string name="editor_save">Guardar</string>
+    <string name="editor_back">Volver</string>
+    <string name="editor_section_style">Estilo</string>
+    <string name="editor_section_background">Fondo</string>
+    <string name="editor_section_texts">Textos</string>
+    <string name="editor_section_details">Detalles</string>
+    <string name="editor_pick_image">Usar una imagen</string>
+    <string name="editor_remove_image">Quitar imagen</string>
+    <string name="editor_image_error">No se ha podido cargar la imagen</string>
+    <string name="editor_color_start">Color 1</string>
+    <string name="editor_color_end">Color 2</string>
+    <string name="editor_finish">Acabado</string>
+    <string name="editor_title">Nombre de la tarjeta</string>
+    <string name="editor_badge">Etiqueta (ej. GOLD)</string>
+    <string name="editor_holder">Titular</string>
+    <string name="editor_last_digits">Últimos 4 dígitos (opcional)</string>
+    <string name="editor_last_digits_help">Solo decorativo. Nunca escribas el número completo de tu tarjeta.</string>
+    <string name="editor_show_chip">Mostrar chip</string>
+    <string name="editor_show_contactless">Mostrar símbolo contactless</string>
+    <string name="editor_text_tone">Color del texto</string>
+    <string name="editor_text_light">Claro</string>
+    <string name="editor_text_dark">Oscuro</string>
+    <string name="editor_discard_title">¿Descartar los cambios?</string>
+    <string name="editor_discard_confirm">Descartar</string>
+    <string name="editor_keep_editing">Seguir editando</string>
+
+    <!-- Finishes -->
+    <string name="finish_matte">Mate</string>
+    <string name="finish_glossy">Brillo</string>
+    <string name="finish_brushed">Metal cepillado</string>
+    <string name="finish_holographic">Holográfico</string>
+    <string name="finish_carbon">Carbono</string>
+
+    <!-- Color picker -->
+    <string name="color_title">Elige un color</string>
+    <string name="color_hue">Tono</string>
+    <string name="color_saturation">Saturación</string>
+    <string name="color_brightness">Brillo</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Pay -->
+    <string name="pay_hint">Acerca el móvil al datáfono</string>
+    <string name="pay_sub_hint">El pago lo procesa tu app de pagos predeterminada con tu tarjeta real</string>
+    <string name="pay_no_cards">No tienes ninguna tarjeta diseñada todavía.</string>
+    <string name="pay_create">Crear una</string>
+</resources>
